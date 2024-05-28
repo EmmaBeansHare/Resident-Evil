@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#re-Vid{
+    position: fixed;
+}
+
+.everything{
+    position: relative;
+}
+
+.top-part, header, header ul, .log-in, .left-side{
+    display: flex;
+}
+
+.top-part{
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+header{
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;    
+}
+
+header logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+}
+
+header logo img{
+    height: 50px;
+}
+
+header ul{
+    gap: 80px;
+    font-size: 1.2rem;
+    list-style: none;
+    font-weight: 200;
+}
+
+header ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition: 0.3s ease-in-out;
+}
+
+header ul a:hover{
+    color: red;
+    opacity: 0.3;
+}
+
+.log-in{
+    justify-content: center;
+    margin-top: 280px;
+    padding-bottom: 200px;
+}
+
+.log-in img{
+    height: 330px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.left-side{
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.left-side h3{
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.left-side p{
+    font-weight: lighter;
+}
+
+.left-side button{
+    width: 120px;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.572);
+    border: none;
+    border-radius: 4px;
+    color: rgba(154, 154, 154, 0.552);
+    transition: 0.3s ease-in-out;
+}
+
+.left-side button:hover{
+    color: rgba(255, 0, 0, 0.679);
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+.box-part-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.box-part-wrapper h2{
+    color: rgba(255, 255, 255, 0.255);
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.boxes-part{
+    display: flex;
+    gap: 80px;
+    height: 400px;
+    width: 1000px;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img{
+    width: 190px;
+    height: 180px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.box p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: lighter;
+}
+
+
+
+.quote-wrapper{
+    background-image: url("images-vids/wesker2.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.quote-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.349);
+    background-image: url("images-vids/wesker.png");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: right; 
+    height: 500px;
+}
+
+.quote-text{
+    color: white;
+    margin-right: 400px;
+    max-width:fit-content;
+}
+
+.quote-part h3{
+    font-size: 2.3rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-part p{
+    text-align: right;
+    font-weight: lighter;
+}
+
+.more-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.349);
+    padding: 30px;
+    border-radius: 5px;
+    margin: 300px 0;
+}
+
+.form p{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.boldT{
+    font-weight: 500;
+}
+
+.form button{
+    padding: 5px;
+    height: 35px;
+    color: rgba(154, 154, 154, 0.552);
+    background-color: rgba(0, 0, 0, 0.572);
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+.form button:hover{
+    color: rgba(255, 0, 0, 0.679);
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.607);
+    height: 80px;
+}
+
+footer p, footer a{
+    color: rgba(255, 255, 255, 0.624);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
